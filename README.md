@@ -1,7 +1,6 @@
 # Docs Evidence Pack
 
 This repo is a public portfolio showing my approach to content design and technical documentation.  
-It supports my applications for Senior Content Designer (DESNZ) and Technical Writer (JP Morgan).
 
 ## Contents
 
