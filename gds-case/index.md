@@ -6,6 +6,7 @@ I mapped the user journey from diagnosis to treatment, grouped related steps int
 
 ## Before → After:
 **Before:** long paragraphs, clinical terms, no clear navigation.
+
 **After:**  tabbed navigation (overview, medication, education), scannable lists, plain-English labels, and repeated access points for key content.
 
 **Impact:**
