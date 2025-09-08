@@ -1,7 +1,9 @@
 # GDS Case Study – Healthcare Guidance
 
 This case study shows how I redesigned diabetes medication guidance to make it clearer, safer, and easier to use.  
-The original content was dense, jargon-heavy, and hard to scan. Users struggled to find key information quickly.  
+The original content was dense, jargon-heavy, and hard to scan. Users struggled to find key information quickly. 
+
+![gds](https://github.com/user-attachments/assets/1ffa3b06-de3c-448a-b9aa-e669cda90a52)
 
 ## What I did
 - Scoped the content project from discovery to testing.  
