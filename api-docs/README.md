@@ -1,5 +1,7 @@
 # API Documentation Demo – Payments API
 
+**Live version:** View the [interactive Swagger UI](./index.html) or [raw OpenAPI spec](openapi.yaml).
+
 This demo shows how I approach technical documentation for APIs.  
 It includes an OpenAPI 3.0 spec, a “Getting started” guide, and example requests and responses.  
 The goal is to demonstrate clear, developer-focused docs, not to build a live API.  
