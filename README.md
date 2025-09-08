@@ -1,6 +1,6 @@
 # docs-evidence-pack
 
-Public portfolio evidence for applications (DESNZ + JP Morgan).
+Public portfolio evidence for applications.
 
 ## Structure
 - `gds-case/` — GOV.UK-style content design case study (user needs → content decisions → outcomes).
