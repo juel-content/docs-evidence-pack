@@ -23,7 +23,7 @@ curl -X POST https://auth.example.com/token \
 
 ## Step 2 - Create a payment
 
-curl -X POST https://api.example.com/v1/payments \
+```curl -X POST https://api.example.com/v1/payments \
   -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{
@@ -31,3 +31,4 @@ curl -X POST https://api.example.com/v1/payments \
     "currency": "GBP",
     "reference": "INV-2025-0001"
   }'
+```
