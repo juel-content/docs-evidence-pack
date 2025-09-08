@@ -1,27 +1,34 @@
 # API Documentation Demo – Payments API
 
-This demo shows how I approach technical documentation for APIs.
-It includes an OpenAPI 3.0 spec, a “Getting started” guide, and example requests and responses.
-The goal is to demonstrate clear, developer-focused docs, not to build a live API.
+This demo shows how I approach technical documentation for APIs.  
+It includes an OpenAPI 3.0 spec, a “Getting started” guide, and example requests and responses.  
+The goal is to demonstrate clear, developer-focused docs, not to build a live API.  
 
 ## Key features
-- **Authentication:** OAuth2 with token endpoint
-- **Endpoints:**
-  - `POST /payments` – create a payment
-  - `GET /payments/{id}` – retrieve a payment
-- **Webhooks:** `payment.succeeded` event with payload example
+- **Authentication:** OAuth2 with token endpoint  
+- **Endpoints:**  
+  - `POST /payments` – create a payment  
+  - `GET /payments/{id}` – retrieve a payment  
+- **Webhooks:** `payment.succeeded` event with payload example  
 
 ## Getting started
 
 ### Step 1 – Get an access token
+
 ```bash
 curl -X POST https://auth.example.com/token \
   -d 'grant_type=client_credentials&client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET'
+
+{
+  "access_token": "eyJhbGciOi...",
+  "token_type": "Bearer",
+  "expires_in": 3600
+}
 ```
 
-### Step 2 - Create a payment
+### Step 2 – Get an access token
 
-```curl -X POST https://api.example.com/v1/payments \
+curl -X POST https://api.example.com/v1/payments \
   -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{
@@ -29,14 +36,33 @@ curl -X POST https://auth.example.com/token \
     "currency": "GBP",
     "reference": "INV-2025-0001"
   }'
-```
+
+{
+  "id": "pay_123abc",
+  "status": "created",
+  "amount": 42.50,
+  "currency": "GBP"
+}
+
 ### Error example – invalid request
 
-If required fields are missing or invalid, the API returns a `400 Bad Request` response:
+If required fields are missing or invalid, the API returns a 400 Bad Request response:
 
-```json
 {
   "error": "invalid_request",
   "message": "The 'currency' field is required."
 }
-```
+### Step 3 – Retrieve a payment
+
+curl -X GET https://api.example.com/v1/payments/pay_123abc \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+{
+  "id": "pay_123abc",
+  "status": "succeeded",
+  "amount": 42.50,
+  "currency": "GBP"
+}
+{
+  "error": "not_found",
+  "message": "No payment found with ID pay_invalid"
+}
