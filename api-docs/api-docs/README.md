@@ -19,6 +19,7 @@ The goal is to demonstrate clear, developer-focused docs, not to build a live AP
 ```bash
 curl -X POST https://auth.example.com/token \
   -d 'grant_type=client_credentials&client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET'
+```
 
 ## Step 2 - Create a payment
 
