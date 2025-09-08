@@ -34,8 +34,11 @@ Framework colleagues could reuse for other healthcare guidance.
 - Colour and contrast: ensured compliance with WCAG 2.1 AA.
 
 ## Measures of success
-- Completion rate ↑ / support tickets ↓ / time on task ↓ / comprehension ↑.
-- What you’ll track post‑launch and how often.
+- Comprehension: clearer plain-English content reduces risk of misinterpretation.
+- Efficiency: step-by-step format allows time-poor users to scan and act faster.
+- Support demand: fewer clarifying questions expected for call handlers and clinicians.
+- Consistency: taxonomy and navigation provide a framework reusable across other health content.
+- Accessibility: content tested for readability, WCAG compliance, and user feedback.
 
 ## Stakeholder comms
 - Artefacts used to explain changes (before/after, readability score, user quotes).
