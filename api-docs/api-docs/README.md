@@ -21,7 +21,7 @@ curl -X POST https://auth.example.com/token \
   -d 'grant_type=client_credentials&client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET'
 ```
 
-## Step 2 - Create a payment
+### Step 2 - Create a payment
 
 ```curl -X POST https://api.example.com/v1/payments \
   -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
