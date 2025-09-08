@@ -1,16 +1,19 @@
-# docs-evidence-pack
+# Docs Evidence Pack
 
-This repo is a public portfolio showing my approach to content design and technical documentation.
+This repo is a public portfolio showing my approach to content design and technical documentation.  
+It supports my applications for Senior Content Designer (DESNZ) and Technical Writer (JP Morgan).
 
-## Structure
-- `gds-case/` — GOV.UK-style content design case study (user needs → content decisions → outcomes).
-- `api-docs/` — Docs-as-code demo with an OpenAPI spec and getting-started tutorial.
+## Contents
 
-## Quick Tasks
-1. **GDS case**: fill in `gds-case/index.md` (before/after, user needs, analytics plan, accessibility checklist).
-2. **API docs**: edit `api-docs/openapi.yaml` (add fields/endpoints you want to showcase).
-3. Commit with messages in the format: `feat(gds): draft before-after` or `feat(api): initial openapi spec`.
+- **[GDS case study](gds-case/index.md)** – healthcare content project rewritten in GOV.UK style.  
+- **[API documentation demo](api-docs/README.md)** – docs-as-code example using OpenAPI, OAuth2, and webhooks.  
 
-## Next Steps
-- Turn on GitHub Pages (later) for a simple site, or wire up MkDocs when ready.
-- Link this repo in your applications.
+## Purpose
+
+- Show evidence of applying GOV.UK style, plain English, and accessibility standards.  
+- Demonstrate experience working in agile teams and using evidence to guide content decisions.  
+- Provide a live example of technical documentation (API reference + getting started guide).  
+
+---
+
+*This repo is designed for hiring panels to browse. For context or questions, please contact me on LinkedIn.*  
