@@ -30,4 +30,13 @@ curl -X POST https://auth.example.com/token \
     "reference": "INV-2025-0001"
   }'
 ```
+### Error example – invalid request
 
+If required fields are missing or invalid, the API returns a `400 Bad Request` response:
+
+```json
+{
+  "error": "invalid_request",
+  "message": "The 'currency' field is required."
+}
+```
