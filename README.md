@@ -1,6 +1,6 @@
 # docs-evidence-pack
 
-Public portfolio evidence for applications.
+This repo is a public portfolio showing my approach to content design and technical documentation.
 
 ## Structure
 - `gds-case/` — GOV.UK-style content design case study (user needs → content decisions → outcomes).
