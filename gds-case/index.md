@@ -41,6 +41,10 @@ Framework colleagues could reuse for other healthcare guidance.
 - Accessibility: content tested for readability, WCAG compliance, and user feedback.
 
 ## Stakeholder comms
-- Artefacts used to explain changes (before/after, readability score, user quotes).
-- Objections and how you addressed them.
+- Before-and-after examples: showed how long paragraphs created risk and how plain English improved clarity.
+- Visual aids: used wireframes and flow diagrams to explain navigation and user journey.
+- Evidence: shared research data and feedback from time-poor users to demonstrate need.
+- Concerns raised: some stakeholders feared losing medical accuracy.
+- Response: explained how plain English versions preserved accuracy while reducing risk.
+- Outcome: stakeholders approved the approach, and the framework was reused for other healthcare guidance.
 
