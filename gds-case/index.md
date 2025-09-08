@@ -24,14 +24,14 @@ Framework colleagues could reuse for other healthcare guidance.
 - User quotes or usability notes (optional but ideal).
 
 ## Accessibility checklist
-Headings: clear hierarchy (H1 → H2 → H3), short and descriptive.
-Link text: meaningful (“Show options”, “Hide options”), no “click here”.
-Lists: used for steps and conditions to support screen readers.
-Plain English: medical jargon replaced with user-friendly terms where safe.
-Layout: tabbed navigation helps users know where they are.
-Repetition: key warnings repeated in context for safety.
-Readability: tested with Hemingway/Flesch – improved from difficult to plain English.
-Colour and contrast: ensured compliance with WCAG 2.1 AA.
+- Headings: clear hierarchy (H1 → H2 → H3), short and descriptive.
+- Link text: meaningful (“Show options”, “Hide options”), no “click here”.
+- Lists: used for steps and conditions to support screen readers.
+- Plain English: medical jargon replaced with user-friendly terms where safe.
+- Layout: tabbed navigation helps users know where they are.
+- Repetition: key warnings repeated in context for safety.
+- Readability: tested with Hemingway/Flesch – improved from difficult to plain English.
+- Colour and contrast: ensured compliance with WCAG 2.1 AA.
 
 ## Measures of success
 - Completion rate ↑ / support tickets ↓ / time on task ↓ / comprehension ↑.
