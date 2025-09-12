@@ -1,8 +1,3 @@
----
-title: Docs Evidence Pack
-layout: none
----
-
 # Docs Evidence Pack
 
 This site shows examples of my content design and technical documentation.
