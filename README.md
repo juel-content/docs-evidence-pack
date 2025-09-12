@@ -5,7 +5,7 @@ This repo is a public portfolio showing my approach to content design and techni
 ## Contents
 
 - **[GDS case study](gds-case/index.md)** – healthcare content project rewritten in GOV.UK style.  
-- **[API documentation demo](api-docs/README.md)** – docs-as-code example using OpenAPI, OAuth2, and webhooks.  
+- **[API documentation demo](api-docs/payments.md)** – docs-as-code example using OpenAPI, OAuth2, and webhooks.  
 
 ## Purpose
 
