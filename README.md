@@ -16,3 +16,6 @@ This repo is a public portfolio showing my approach to content design and techni
 ---
 
 *This repo is designed for hiring panels to browse. For context or questions, please contact me on [LinkedIn](https://www.linkedin.com/in/juelm)*  
+
+
+_Last updated: {{ site.time | date: "%-d %b %Y" }}_
